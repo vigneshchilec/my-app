@@ -88,11 +88,11 @@ export default function App() {
     await supabase.auth.signOut();
   };
 
-  /** Marks assessment complete in the UI; replace with API save when backend exists. */
+  /** Marks assessment complete in the UI; replace with API save when backend exists. 
   const submitAssessment = (e) => {
     e?.preventDefault();
     setAssessmentSubmitted(true);
-  };
+  };*/
 
   const goToChestPressQuestion = () => {
     const raw = assessmentAnswers.sitUps.trim();
